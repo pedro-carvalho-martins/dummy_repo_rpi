@@ -1,25 +1,33 @@
 import csv
 import os
 
-def sanitize_content(content):
-    # Define replacement for problematic characters
-    sanitized = content.replace('\x00', '')  # Null bytes
-    sanitized = sanitized.replace('\x01', '')  # Unusual control characters
-    # Add more replacements as needed
-    return sanitized
+def remove_null_characters(file_path, temp_file_path):
+    with open(file_path, 'rb') as file:
+        content = file.read()
+    # Remove null characters
+    cleaned_content = content.replace(b'\x00', b'')
+    # Write cleaned content to a temporary file
+    with open(temp_file_path, 'wb') as temp_file:
+        temp_file.write(cleaned_content)
 
-def sanitize_csv_file(file_path):
+def process_csv(file_path):
     temp_file_path = file_path + '.tmp'
+    
+    # Remove null characters and create a temporary file
+    remove_null_characters(file_path, temp_file_path)
 
-    with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+    # Process the cleaned CSV file
+    with open(temp_file_path, 'r', encoding='utf-8', errors='replace') as file:
         reader = csv.reader(file, delimiter=';')
-        rows = [sanitize_content(''.join(row)).split(';') for row in reader]
+        rows = [row for row in reader]
 
-    with open(temp_file_path, 'w', newline='', encoding='utf-8') as file:
+    # Write the cleaned content back to the original file
+    with open(file_path, 'w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file, delimiter=';')
         writer.writerows(rows)
 
-    os.replace(temp_file_path, file_path)
+    # Remove the temporary file
+    os.remove(temp_file_path)
 
 # Example usage
-sanitize_csv_file('./log_files/tmp_log_client.csv')
+process_csv('./log_files/tmp_log_client.csv')
