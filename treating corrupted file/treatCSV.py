@@ -30,4 +30,4 @@ def process_csv(file_path):
     os.remove(temp_file_path)
 
 # Example usage
-process_csv('./log_files/tmp_log_client.csv')
+process_csv('./tmp_log_client.csv')
