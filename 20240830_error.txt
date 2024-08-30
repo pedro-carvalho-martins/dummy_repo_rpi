@@ -1,0 +1,16 @@
+^CException in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/home/pi/coffea_proj_auto/python/tkinter_frames/tkPMethodFrame.py", line 100, in <lambda>
+    command= lambda idx=button_index: button_clicked(idx, lista_metodos_pag, price_selected, pmethodFrame),
+  File "/home/pi/coffea_proj_auto/python/tkinter_frames/tkPMethodFrame.py", line 14, in button_clicked
+    navigation.navigate_payment_process(price_selected, lista_metodos_pag[index_button], pmethodFrame)
+  File "/home/pi/coffea_proj_auto/python/navigation.py", line 323, in navigate_payment_process
+    threadPixRequest.start()
+  File "/usr/lib/python3.9/threading.py", line 879, in start
+    self._started.wait()
+  File "/usr/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.9/threading.py", line 312, in wait
+    waiter.acquire()
