@@ -1,0 +1,304 @@
+2025-03-14 21:12:14,596 [INFO] Checking or creating weekly log file...
+2025-03-14 21:12:14,598 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W11.csv
+2025-03-14 21:12:14,601 [INFO] Checking or creating weekly log file...
+2025-03-14 21:12:14,602 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W11.csv
+2025-03-14 21:12:14,609 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:12:14,805 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "Coffea_Default_000", "param2": "moderninha_error"}
+2025-03-14 21:12:15,013 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:12:14'}
+2025-03-14 21:12:18,058 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:12:18,254 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "Coffea_Default_000", "param2": 0}
+2025-03-14 21:12:18,451 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:12:18'}
+2025-03-14 21:12:18,460 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:12:18,652 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "Coffea_Default_000", "param2": "Coffea_Default_000_2025-03-14 21_12_18_part_1.json", "param3": {"client_datetime": "2025-03-14 21:12:18", "server_datetime": "2025-03-14 21:12:18", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"], ["2025-03-14 20:32:25", "Coffea_Default_000", "erro_outros", "", "", "checkConnModerninha", "TimeoutExpired", "Subprocess timed out"], ["2025-03-14 21:12:14", "Coffea_Default_000", "erro_outros", "", "", "checkConnModerninha", "TimeoutExpired", "Subprocess timed out"], ["2025-03-14 21:12:14", "Coffea_Default_000", "erro_outros", "", "", "checkConnModerninha", "", "maximum number of attempts to connect to Moderninha exceeded"]]}}
+2025-03-14 21:12:18,844 [DEBUG] Response received: {'status': 'received'}
+2025-03-14 21:12:18,846 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:12:19,040 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "Coffea_Default_000", "param2": "Coffea_Default_000_2025-03-14 21_12_18_part_1.json"}
+2025-03-14 21:12:19,236 [DEBUG] Response received: {'file_size': 1110}
+2025-03-14 21:12:19,237 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:12:19,432 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "Coffea_Default_000", "param2": "Coffea_Default_000_2025-03-14 21_12_18_part_1.json"}
+2025-03-14 21:12:19,628 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-14 21:12:22,840 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:12:23,037 [DEBUG] Connected successfully. Sending request: {"type": "create_pix", "param1": "Coffea_Default_000", "param2": 1.5}
+2025-03-14 21:12:23,413 [DEBUG] Response received: {'pix_qrcode_copiaecola': '00020101021226930014BR.GOV.BCB.PIX2571spi-qrcode.bancointer.com.br/spi/pj/v2/57183d88f26540078f40e7cc30dadffe52040000530398654041.505802BR5901*6012PORTO ALEGRE61089131000062070503***63044B84', 'pix_txid': '9uezsrki5dr4jn07n86s74hkm02kmr0r4qe'}
+2025-03-14 21:12:23,967 [DEBUG] STREAM b'IHDR' 16 13
+2025-03-14 21:12:23,968 [DEBUG] STREAM b'IDAT' 41 1582
+2025-03-14 21:12:24,028 [INFO] Verifying Pix payment for txid: 9uezsrki5dr4jn07n86s74hkm02kmr0r4qe
+2025-03-14 21:14:17,491 [INFO] Checking or creating weekly log file...
+2025-03-14 21:14:17,505 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W11.csv
+2025-03-14 21:14:17,508 [INFO] Checking or creating weekly log file...
+2025-03-14 21:14:17,509 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W11.csv
+2025-03-14 21:14:17,517 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:14:17,713 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "Coffea_Default_000", "param2": "moderninha_error"}
+2025-03-14 21:14:17,911 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:14:17'}
+2025-03-14 21:14:20,924 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:14:21,124 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "Coffea_Default_000", "param2": 0}
+2025-03-14 21:14:21,321 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:14:21'}
+2025-03-14 21:14:21,330 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:14:21,524 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "Coffea_Default_000", "param2": "Coffea_Default_000_2025-03-14 21_14_21_part_1.json", "param3": {"client_datetime": "2025-03-14 21:14:20", "server_datetime": "2025-03-14 21:14:21", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"], ["2025-03-14 21:14:17", "Coffea_Default_000", "erro_outros", "", "", "checkConnModerninha", "TimeoutExpired", "Subprocess timed out"], ["2025-03-14 21:14:17", "Coffea_Default_000", "erro_outros", "", "", "checkConnModerninha", "", "maximum number of attempts to connect to Moderninha exceeded"]]}}
+2025-03-14 21:14:21,720 [DEBUG] Response received: {'status': 'received'}
+2025-03-14 21:14:21,722 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:14:21,912 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "Coffea_Default_000", "param2": "Coffea_Default_000_2025-03-14 21_14_21_part_1.json"}
+2025-03-14 21:14:22,103 [DEBUG] Response received: {'file_size': 861}
+2025-03-14 21:14:22,104 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:14:22,299 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "Coffea_Default_000", "param2": "Coffea_Default_000_2025-03-14 21_14_21_part_1.json"}
+2025-03-14 21:14:22,495 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-14 21:15:01,992 [INFO] Checking or creating weekly log file...
+2025-03-14 21:15:01,993 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W11.csv
+2025-03-14 21:15:01,995 [INFO] Checking or creating weekly log file...
+2025-03-14 21:15:01,996 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W11.csv
+2025-03-14 21:15:01,998 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:02,360 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_error"}
+2025-03-14 21:15:02,646 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:15:02'}
+2025-03-14 21:15:05,655 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:05,854 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": 0}
+2025-03-14 21:15:06,051 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:15:05'}
+2025-03-14 21:15:06,057 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:06,251 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_15_05_part_1.json", "param3": {"client_datetime": "2025-03-14 21:15:05", "server_datetime": "2025-03-14 21:15:05", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"], ["2025-03-14 21:15:01", "DEBUGGING_SYS", "erro_outros", "", "", "checkConnModerninha", "TimeoutExpired", "Subprocess timed out"], ["2025-03-14 21:15:01", "DEBUGGING_SYS", "erro_outros", "", "", "checkConnModerninha", "", "maximum number of attempts to connect to Moderninha exceeded"]]}}
+2025-03-14 21:15:06,446 [DEBUG] Response received: {'status': 'received'}
+2025-03-14 21:15:06,448 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:06,643 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_15_05_part_1.json"}
+2025-03-14 21:15:06,840 [DEBUG] Response received: {'file_size': 851}
+2025-03-14 21:15:06,841 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:07,038 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_15_05_part_1.json"}
+2025-03-14 21:15:07,246 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-14 21:15:16,815 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:17,016 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-14 21:15:17,215 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:15:17'}
+2025-03-14 21:15:20,224 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:20,418 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": 0}
+2025-03-14 21:15:20,611 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:15:20'}
+2025-03-14 21:15:20,619 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:20,810 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_15_20_part_1.json", "param3": {"client_datetime": "2025-03-14 21:15:20", "server_datetime": "2025-03-14 21:15:20", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"]]}}
+2025-03-14 21:15:21,004 [DEBUG] Response received: {'status': 'received'}
+2025-03-14 21:15:21,005 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:21,196 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_15_20_part_1.json"}
+2025-03-14 21:15:21,389 [DEBUG] Response received: {'file_size': 337}
+2025-03-14 21:15:21,390 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:21,585 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_15_20_part_1.json"}
+2025-03-14 21:15:21,783 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-14 21:15:31,752 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:32,039 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-14 21:15:32,234 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:15:32'}
+2025-03-14 21:15:35,243 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:35,447 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": 0}
+2025-03-14 21:15:35,644 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:15:35'}
+2025-03-14 21:15:35,652 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:35,849 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_15_35_part_1.json", "param3": {"client_datetime": "2025-03-14 21:15:35", "server_datetime": "2025-03-14 21:15:35", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"]]}}
+2025-03-14 21:15:36,057 [DEBUG] Response received: {'status': 'received'}
+2025-03-14 21:15:36,059 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:36,255 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_15_35_part_1.json"}
+2025-03-14 21:15:36,452 [DEBUG] Response received: {'file_size': 337}
+2025-03-14 21:15:36,454 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:36,649 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_15_35_part_1.json"}
+2025-03-14 21:15:36,846 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-14 21:15:40,765 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:40,970 [DEBUG] Connected successfully. Sending request: {"type": "create_pix", "param1": "DEBUGGING_SYS", "param2": 1.5}
+2025-03-14 21:15:41,375 [DEBUG] Response received: {'pix_qrcode_copiaecola': '00020101021226930014BR.GOV.BCB.PIX2571spi-qrcode.bancointer.com.br/spi/pj/v2/dee37da47e38442e986aefc4fd6e14b952040000530398654041.505802BR5901*6012PORTO ALEGRE61089131000062070503***6304BE09', 'pix_txid': 'lnc12psi7akz46n4ennk7aatdbkd0wuw79r'}
+2025-03-14 21:15:41,923 [DEBUG] STREAM b'IHDR' 16 13
+2025-03-14 21:15:41,924 [DEBUG] STREAM b'IDAT' 41 1609
+2025-03-14 21:15:41,978 [INFO] Verifying Pix payment for txid: lnc12psi7akz46n4ennk7aatdbkd0wuw79r
+2025-03-14 21:15:46,985 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:47,185 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:15:47,504 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:15:47,505 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:15:52,512 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:52,714 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:15:53,037 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:15:53,038 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:15:58,045 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:15:58,238 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:15:58,553 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:15:58,555 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:03,561 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:16:03,760 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:16:04,079 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:04,080 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:09,087 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:16:09,283 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:16:09,619 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:09,621 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:14,627 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:16:14,822 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:16:15,142 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:15,143 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:20,149 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:16:20,350 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:16:20,667 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:20,668 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:25,674 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:16:25,870 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:16:26,199 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:26,200 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:31,207 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:16:31,425 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:16:31,736 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:31,737 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-14 21:16:36,743 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:16:36,940 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "lnc12psi7akz46n4ennk7aatdbkd0wuw79r"}
+2025-03-14 21:16:37,275 [DEBUG] Response received: {'status_cob_pix': 'CONCLUIDA'}
+2025-03-14 21:16:37,276 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'CONCLUIDA'}
+2025-03-14 21:16:37,294 [INFO] Checking or creating weekly log file...
+2025-03-14 21:16:37,295 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W11.csv
+2025-03-14 21:16:58,966 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:16:59,163 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-14 21:16:59,362 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:16:59'}
+2025-03-14 21:17:02,371 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:17:02,637 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": 0}
+2025-03-14 21:17:02,829 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:17:02'}
+2025-03-14 21:17:02,835 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:17:03,031 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_17_02_part_1.json", "param3": {"client_datetime": "2025-03-14 21:17:02", "server_datetime": "2025-03-14 21:17:02", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"], ["2025-03-14 21:16:37", "DEBUGGING_SYS", "venda_sucesso", "1.5", "QR Code (Pix)", "", "", ""]]}}
+2025-03-14 21:17:03,227 [DEBUG] Response received: {'status': 'received'}
+2025-03-14 21:17:03,230 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:17:03,424 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_17_02_part_1.json"}
+2025-03-14 21:17:03,621 [DEBUG] Response received: {'file_size': 546}
+2025-03-14 21:17:03,622 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:17:03,813 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_17_02_part_1.json"}
+2025-03-14 21:17:04,004 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-14 21:17:32,658 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:17:32,867 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-14 21:17:33,066 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:18:10'}
+2025-03-14 21:18:13,771 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:18:13,967 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": 0}
+2025-03-14 21:18:14,165 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:18:14'}
+2025-03-14 21:18:14,178 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:18:14,368 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_18_14_part_1.json", "param3": {"client_datetime": "2025-03-14 21:18:13", "server_datetime": "2025-03-14 21:18:14", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"]]}}
+2025-03-14 21:18:14,560 [DEBUG] Response received: {'status': 'received'}
+2025-03-14 21:18:14,562 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:18:14,754 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_18_14_part_1.json"}
+2025-03-14 21:18:14,946 [DEBUG] Response received: {'file_size': 337}
+2025-03-14 21:18:14,947 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:18:15,142 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_18_14_part_1.json"}
+2025-03-14 21:18:15,339 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-14 21:23:13,792 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-14 21:23:13,994 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-14 21:23:14,191 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:23:14'}
+2025-03-19 15:30:53,178 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:30:53,375 [DEBUG] Connected successfully. Sending request: {"type": "create_pix", "param1": "DEBUGGING_SYS", "param2": 1.5}
+2025-03-19 15:30:53,795 [DEBUG] Response received: {'pix_qrcode_copiaecola': '00020101021226930014BR.GOV.BCB.PIX2571spi-qrcode.bancointer.com.br/spi/pj/v2/2d2f94efa1f942268f9f39ce73b04f9c52040000530398654041.505802BR5901*6012PORTO ALEGRE61089131000062070503***63042BB7', 'pix_txid': 'm2slna2dbob2ff17ucb1jz81skqvfegsz6g'}
+2025-03-19 15:30:54,343 [DEBUG] STREAM b'IHDR' 16 13
+2025-03-19 15:30:54,344 [DEBUG] STREAM b'IDAT' 41 1604
+2025-03-19 15:30:54,405 [INFO] Verifying Pix payment for txid: m2slna2dbob2ff17ucb1jz81skqvfegsz6g
+2025-03-19 15:30:59,411 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:30:59,607 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "m2slna2dbob2ff17ucb1jz81skqvfegsz6g"}
+2025-03-19 15:30:59,930 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:30:59,931 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:31:04,938 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:31:05,133 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "m2slna2dbob2ff17ucb1jz81skqvfegsz6g"}
+2025-03-19 15:31:05,477 [DEBUG] Response received: {'status_cob_pix': 'CONCLUIDA'}
+2025-03-19 15:31:05,478 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'CONCLUIDA'}
+2025-03-19 15:31:05,497 [INFO] Checking or creating weekly log file...
+2025-03-19 15:31:05,501 [INFO] Weekly log file created from model: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W12.csv
+2025-03-19 15:31:05,502 [ERROR] Error prepare and check current year week backup csv file:
+Traceback (most recent call last):
+  File "/home/pi/coffea_proj_auto/python/rwLogCSV.py", line 56, in prepare_and_check_current_year_week_backup_csv_path
+    delete_old_csv_backup_files()
+  File "/home/pi/coffea_proj_auto/python/rwLogCSV.py", line 24, in delete_old_csv_backup_files
+    year = int(csv_file[ len('backup_full_client_log_Y') + 1 : len('backup_full_client_log_Y') + 5 ])
+ValueError: invalid literal for int() with base 10: '025_'
+2025-03-19 15:31:05,506 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W12.csv
+2025-03-19 15:31:27,511 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:31:27,709 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-19 15:31:27,906 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:25:53'}
+2025-03-19 15:31:30,915 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:31:31,114 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": 0}
+2025-03-19 15:31:31,309 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:25:56'}
+2025-03-19 15:31:31,314 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:31:31,505 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_25_56_part_1.json", "param3": {"client_datetime": "2025-03-19 15:31:30", "server_datetime": "2025-03-14 21:25:56", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"], ["2025-03-19 15:31:05", "DEBUGGING_SYS", "venda_sucesso", "1.5", "QR Code (Pix)", "", "", ""]]}}
+2025-03-19 15:31:31,708 [DEBUG] Response received: {'status': 'received'}
+2025-03-19 15:31:31,710 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:31:31,908 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_25_56_part_1.json"}
+2025-03-19 15:31:32,104 [DEBUG] Response received: {'file_size': 546}
+2025-03-19 15:31:32,105 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:31:32,300 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_25_56_part_1.json"}
+2025-03-19 15:31:32,496 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-19 15:31:40,901 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:31:41,124 [DEBUG] Connected successfully. Sending request: {"type": "create_pix", "param1": "DEBUGGING_SYS", "param2": 1.5}
+2025-03-19 15:31:41,512 [DEBUG] Response received: {'pix_qrcode_copiaecola': '00020101021226930014BR.GOV.BCB.PIX2571spi-qrcode.bancointer.com.br/spi/pj/v2/ff763b1b32e44de78fc71d49e4f099c852040000530398654041.505802BR5901*6012PORTO ALEGRE61089131000062070503***6304D55F', 'pix_txid': 'egslo0h03i0u9oom3hzb2ln79fqfth44m5q'}
+2025-03-19 15:31:42,033 [DEBUG] STREAM b'IHDR' 16 13
+2025-03-19 15:31:42,034 [DEBUG] STREAM b'IDAT' 41 1580
+2025-03-19 15:31:42,085 [INFO] Verifying Pix payment for txid: egslo0h03i0u9oom3hzb2ln79fqfth44m5q
+2025-03-19 15:31:47,092 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:31:47,291 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "egslo0h03i0u9oom3hzb2ln79fqfth44m5q"}
+2025-03-19 15:31:47,614 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:31:47,615 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:31:52,618 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:31:52,822 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "egslo0h03i0u9oom3hzb2ln79fqfth44m5q"}
+2025-03-19 15:31:53,147 [DEBUG] Response received: {'status_cob_pix': 'CONCLUIDA'}
+2025-03-19 15:31:53,148 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'CONCLUIDA'}
+2025-03-19 15:31:53,166 [INFO] Checking or creating weekly log file...
+2025-03-19 15:31:53,167 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W12.csv
+2025-03-19 15:32:14,900 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:32:15,101 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-19 15:32:15,298 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:26:40'}
+2025-03-19 15:32:18,307 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:32:18,510 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": 0}
+2025-03-19 15:32:18,707 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:26:43'}
+2025-03-19 15:32:18,712 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:32:18,910 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_26_43_part_1.json", "param3": {"client_datetime": "2025-03-19 15:32:18", "server_datetime": "2025-03-14 21:26:43", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"], ["2025-03-19 15:31:53", "DEBUGGING_SYS", "venda_sucesso", "1.5", "QR Code (Pix)", "", "", ""]]}}
+2025-03-19 15:32:19,107 [DEBUG] Response received: {'status': 'received'}
+2025-03-19 15:32:19,109 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:32:19,298 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_26_43_part_1.json"}
+2025-03-19 15:32:19,489 [DEBUG] Response received: {'file_size': 546}
+2025-03-19 15:32:19,491 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:32:19,682 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_26_43_part_1.json"}
+2025-03-19 15:32:19,874 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-19 15:37:18,339 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:37:18,539 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-19 15:37:18,739 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:31:43'}
+2025-03-19 15:42:18,842 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:42:18,843 [ERROR] Error during send_request_client_socket: [Errno 101] Network is unreachable
+2025-03-19 15:42:18,845 [INFO] Checking or creating weekly log file...
+2025-03-19 15:42:18,846 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W12.csv
+2025-03-19 15:42:18,847 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 2
+2025-03-19 15:42:18,847 [ERROR] Error during send_request_client_socket: [Errno 101] Network is unreachable
+2025-03-19 15:42:18,849 [INFO] Checking or creating weekly log file...
+2025-03-19 15:42:18,850 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W12.csv
+2025-03-19 15:42:18,851 [ERROR] Max retries exceeded. Could not connect to server.
+2025-03-19 15:42:18,852 [INFO] Checking or creating weekly log file...
+2025-03-19 15:42:18,853 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W12.csv
+2025-03-19 15:54:18,816 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:54:19,015 [DEBUG] Connected successfully. Sending request: {"type": "create_pix", "param1": "DEBUGGING_SYS", "param2": 1.5}
+2025-03-19 15:54:19,408 [DEBUG] Response received: {'pix_qrcode_copiaecola': '00020101021226930014BR.GOV.BCB.PIX2571spi-qrcode.bancointer.com.br/spi/pj/v2/0ba9d5d684e94ac19eeba95a27af0c9a52040000530398654041.505802BR5901*6012PORTO ALEGRE61089131000062070503***6304D5D8', 'pix_txid': 'aoabmretm4y4fkocyg081o0uauhtw8m4j2j'}
+2025-03-19 15:54:19,901 [DEBUG] STREAM b'IHDR' 16 13
+2025-03-19 15:54:19,902 [DEBUG] STREAM b'IDAT' 41 1622
+2025-03-19 15:54:19,954 [INFO] Verifying Pix payment for txid: aoabmretm4y4fkocyg081o0uauhtw8m4j2j
+2025-03-19 15:54:24,960 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:54:25,162 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "aoabmretm4y4fkocyg081o0uauhtw8m4j2j"}
+2025-03-19 15:54:25,507 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:54:25,508 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:54:30,515 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:54:30,718 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "aoabmretm4y4fkocyg081o0uauhtw8m4j2j"}
+2025-03-19 15:54:31,046 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:54:31,048 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:54:36,054 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:54:36,249 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "aoabmretm4y4fkocyg081o0uauhtw8m4j2j"}
+2025-03-19 15:54:36,557 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:54:36,559 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:54:41,564 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:54:41,768 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "aoabmretm4y4fkocyg081o0uauhtw8m4j2j"}
+2025-03-19 15:54:42,086 [DEBUG] Response received: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:54:42,087 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'ATIVA'}
+2025-03-19 15:54:47,093 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:54:47,292 [DEBUG] Connected successfully. Sending request: {"type": "cob_read", "param1": "DEBUGGING_SYS", "param2": "aoabmretm4y4fkocyg081o0uauhtw8m4j2j"}
+2025-03-19 15:54:47,641 [DEBUG] Response received: {'status_cob_pix': 'CONCLUIDA'}
+2025-03-19 15:54:47,642 [DEBUG] Raw Pix payment response: {'status_cob_pix': 'CONCLUIDA'}
+2025-03-19 15:54:47,659 [INFO] Checking or creating weekly log file...
+2025-03-19 15:54:47,660 [DEBUG] Weekly log file path confirmed: ./log_files/csv_full_logs_backup/backup_full_client_log_Y2025_W12.csv
+2025-03-19 15:55:09,324 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:55:09,537 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-19 15:55:09,758 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:49:34'}
+2025-03-19 15:55:12,767 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:55:12,974 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": 0}
+2025-03-19 15:55:13,172 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:49:38'}
+2025-03-19 15:55:13,180 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:55:13,371 [DEBUG] Connected successfully. Sending request: {"type": "json_log_transmission", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_49_38_part_1.json", "param3": {"client_datetime": "2025-03-19 15:55:12", "server_datetime": "2025-03-14 21:49:38", "data": [["datetime_register_str", "nome_sistema", "tipo_registro", "valor_venda", "metodo_pag", "etapa_erro", "descricao_erro"], ["2025-03-19 15:42:18", "DEBUGGING_SYS", "erro_outros", "", "", "send_request_client_socket", "<class -OSError->", "[Errno 101] Network is unreachable"], ["2025-03-19 15:42:18", "DEBUGGING_SYS", "erro_outros", "", "", "send_request_client_socket", "<class -OSError->", "[Errno 101] Network is unreachable"], ["2025-03-19 15:42:18", "DEBUGGING_SYS", "erro_outros", "", "", "send_request", "", "maximum number of attempts to connect to server exceeded"], ["2025-03-19 15:54:47", "DEBUGGING_SYS", "venda_sucesso", "1.5", "QR Code (Pix)", "", "", ""]]}}
+2025-03-19 15:55:13,585 [DEBUG] Response received: {'status': 'received'}
+2025-03-19 15:55:13,587 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:55:13,783 [DEBUG] Connected successfully. Sending request: {"type": "verify_json_file_from_client", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_49_38_part_1.json"}
+2025-03-19 15:55:13,987 [DEBUG] Response received: {'file_size': 1341}
+2025-03-19 15:55:13,988 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 15:55:14,186 [DEBUG] Connected successfully. Sending request: {"type": "acknowledge_file", "param1": "DEBUGGING_SYS", "param2": "DEBUGGING_SYS_2025-03-14 21_49_38_part_1.json"}
+2025-03-19 15:55:14,383 [DEBUG] Response received: {'ack': 'acknowledged'}
+2025-03-19 16:00:12,866 [INFO] Connecting to server at 18.230.15.249:8080, Attempt 1
+2025-03-19 16:00:13,065 [DEBUG] Connected successfully. Sending request: {"type": "ping", "param1": "DEBUGGING_SYS", "param2": "moderninha_disabled"}
+2025-03-19 16:00:13,262 [DEBUG] Response received: {'ping': 'OK', 'datetime_server': '2025-03-14 21:54:38'}
